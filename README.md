@@ -1,8 +1,6 @@
-# Webpack Starter
+# Image Slider
 
-This is for quickly making new projects without setting up basic stuff
-by hand. Was initially created in the [todo](https://github.com/ilathem/todo-top)
-repo.
+Making an image slider for [practice](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions#image-slider)
 
 ## Deploying:
 
