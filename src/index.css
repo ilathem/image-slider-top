@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --eerie-black: #1c2321ff;
+  --cadet-gray: #7d98a1ff;
+  --paynes-gray: #5e6572ff;
+  --powder-blue: #a9b4c2ff;
+  --antiflash-white: #eef1efff;
+}
+
+html {
+  font-family: "nunito";
+  background-color: var(--eerie-black);
+  color: var(--antiflash-white);
+}
