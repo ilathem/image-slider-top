@@ -54,3 +54,11 @@ body {
   /* border: 2px solid red; */
 }
 
+.leftArrow,
+.rightArrow {
+  cursor: pointer;
+}
+
+.leftArrow {
+  rotate: 180deg;
+}
