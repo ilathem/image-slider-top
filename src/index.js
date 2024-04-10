@@ -1,11 +1,11 @@
 import './index.css';
 import cat from './cat.jpg';
-import deer from './deer.jpg';
-import forest from './forest.jpg';
-import mtns from './mtns.jpg';
-import waterfall from './waterfall.jpg';
+import eclipse from './eclipse.jpg';
+import mushroom from './mushroom.jpg';
+import sky from './sky.jpg';
+import statue from './statue.jpg';
 import arrow from './icons8-arrow-right-48.png';
-let images = [cat, deer, forest, mtns, waterfall];
+let images = [cat, eclipse, mushroom, sky, statue];
 
 const circlesDiv = document.createElement('div');
 circlesDiv.classList.add('circlesDiv');
@@ -45,6 +45,7 @@ const addInitialImages = () => {
     imgElement.src = image;
     imgElement.classList.add('image');
     document.querySelector('.images').appendChild(imgElement);
+    if (index === 0) document.querySelector('.images').style.left = 0;
 
     const circle = document.createElement('circle');
     circle.classList.add('circle');
