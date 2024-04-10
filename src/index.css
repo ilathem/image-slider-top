@@ -20,8 +20,35 @@ html {
 }
 
 body {
-  display: flex;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.circlesDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.activeCircle {
+  background-color: var(--powder-blue);
+}
+
+.circle {
+  cursor: pointer;
+  transition: all 1s;
+  border: 2px solid var(--powder-blue);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 0 1em;
+  padding: 1em;
+}
+
+.sliderDiv {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
